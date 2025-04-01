@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "game_saves/"
-API_TOKEN = os.getenv("API_TOKEN", "your_secure_token")  # Secure API token
+API_TOKEN = os.getenv("API_TOKEN", "o7khRHLxpE6uShoa78aW3f997nXU3Q0Q")  # Secure API token
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 def get_save_path(game_name):
